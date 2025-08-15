@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    background-color: #022444;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    padding: 3vh 35vw;
+    margin: 10px;
+    background-color: #a6deff;
+    border-radius: 200px;
+    font-size: 25px;
+    cursor: pointer;
+}
